@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Zen Maru Gothic", "Noto Sans Japanese", Tahoma, Verdana,sans-serif;
+}
+
+body {
+    /* background-image: url(/Web_img/Background.png); */
+    background-image: url(../Web_img/Star.png),url(../Web_img/Cloud.png),
+    linear-gradient(to bottom, rgb(1, 1, 40), rgb(18, 37, 88));
+    background-size: cover;
+}
+
+#wrapper {
+    /* background-image: url(/Web_img/Star.png),url(/Web_img/Cloud.png),
+    linear-gradient(to bottom, rgb(1, 1, 40), rgb(18, 37, 88));
+    background-size: cover; */
+    width: 1000px;
+    margin: 50px auto;
+    padding: 0 100px;
+    color: white;
+}
+
+header {
+    /* background-color: rgba(0, 0, 0,0.5); */
+    height: 350px;
+    /* width: 100%; */
+    /* margin: auto; */
+    margin-bottom: 50px;
+    /* text-align: left; */
+    position: relative;
+}
+
+header p {
+    width: 300px;
+    padding-left: 300px;
+}
+
+header > p+p {
+    padding-left: 400px;
+}
+
+.title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.header-name {
+    position: absolute;
+    top: 120px; 
+    right: 100px;
+}
+
+#header-div-line {
+    margin-top: 150px;
+    bottom: 0;  
+}
+
+main {
+    /* background-color: aqua; */
+}
+.menu {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 150px;
+    list-style-type: none;
+}
+
+.menu img {
+    height: 50px;
+}
+
+.intro {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+span {
+    font-weight: 600;
+    color: blanchedalmond;
+}
+
+.hello {
+    width: 600px;
+    padding: 50px 50px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 30px;
+    line-height: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 3px;
+}
+
+
+.About {
+    position: relative;
+    background: url(../Web_img/Divide\ line.png) no-repeat bottom center/ 900px;
+    background-position-y: 104%;
+}
+
+h1 {
+    text-align: center;
+    margin: 150px 0 100px 0;
+    line-height: 5%;
+    height: 30px;
+}
+
+.watermark-text {
+    position: absolute;
+    text-align: center;
+    left: 22%;
+    font-size: 150px;
+    color: rgba(0,0,0,0.1);
+    z-index: 1;
+    
+    font-family: "Rubik Puddles", "Flavors";
+}
+
+.about-info {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 60px;
+}
+
+.about-box {
+    margin: 0 auto;
+    padding: 50px 50px 0 50px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    position: relative;
+    text-align: center;
+    z-index: 4;
+}
+
+td {
+    width: 200px;
+    height: 40px;
+    /* background-color: black;
+    border-radius: 10px; */
+}
+
+.view-more {
+    display: block;
+    width: 220px;
+    padding: 10px 0;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0,94,137,0.8);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: -20px;
+}
+
+.liking {
+    margin: 0 auto;
+    display: flex;
+    /* gap: 20px; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.liking li {
+    display: block;
+    background-color: rgba(94, 96, 230, 0.3);
+    border-radius: 60px 60px 0 0;
+    border: 5px solid rgb(60, 35, 106);
+    margin: 0 5px 10px 5px;
+    padding: 30px 30px;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.liking-genre {
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.liking-genre li {
+    display: block;
+    background-color: rgba(205, 199, 244, 0.5);
+    border-radius: 20px 20px 10px 10px;
+    border: 2px solid black;
+    /* margin: 20px; */
+    padding: 20px 10px;
+    color: rgb(255, 255, 255);
+}
+
+.watching {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    position: relative;
+    /* left: -100px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 590px;
+    height: 620px;
+    border-radius: 600px;
+}
+
+.watching h2 {
+    margin: 20px;
+    padding: 50px 0;
+    display: block;
+    width: 150px;
+    /* height: 150px; */
+    /* background-color: rgb(10, 0, 69); */
+    border-radius: 100px;
+    color: white;
+
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 60px;
+}
+
+.card-group {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin: 20px 320px;
+}
+
+#card-YS {
+    position: absolute;
+    left: -20%;
+}
+
+#card-Conan {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+}
+
+#card-SxF {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    text-shadow: 1px 1px 5px;
+}
+
+#card-SxF img {
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.7);
+}
+
+#card-HTTD {
+    position: absolute;
+    left: 7%;
+    top: 70%;
+}
+
+#card-TBHX {
+    position: absolute;
+    left: -10%;
+    top: 85%;
+}
+
+#card-Ranma {
+    position: absolute;
+    left: -30%;
+    top: 75%;
+}
+
+#watching {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.watching-info {
+    padding: 20px;
+    background-color: rgba(144, 144, 144, 0.3);
+    border-radius: 40px;
+}
+
+.travel-card-group {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.travel-pic img {
+    height: 300px;
+    /* width: 200px; */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+}
+
+.sns {
+    /* margin: 50px; */
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+
+    position: relative;
+    top: 10px;
+    z-index: 10;
+}
+
+#footer-div-line {
+    margin-top: 40px;
+}
+
+.footer-lines {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-name {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+
+.footer-title {
+    position: absolute;
+    top: 10px;
+    right: 120px;
+}
+
+
