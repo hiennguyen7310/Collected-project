@@ -6,7 +6,7 @@
 }
 
 body {
-    /* background-image: url(/Web_img/Background.png); */
+    background-image: url(/Web_img/Background.png);
     background-image: url(../Web_img/Star.png),url(../Web_img/Cloud.png),
     linear-gradient(to bottom, rgb(1, 1, 40), rgb(18, 37, 88));
     background-size: cover;
