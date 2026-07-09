@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.carousel {
+    display: flex;
+    height: 500px;
+    width: max-content;
+    padding: 20px;
+    gap: 20px;
+    overflow: hidden;
+    animation: scroll 10s linear infinite;
+}
+@keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-50%);}
+}
+.carousel:hover {
+    animation-play-state: paused;
+}
+img:hover {
+    border: 5px solid rgba(200, 200, 200, 0.4);
+    border-radius: 10px;
+    scale: 105%;
+    transition: 0.5s ease-in-out;
+}
