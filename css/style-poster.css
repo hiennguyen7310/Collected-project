@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
-a {
+/* a {
     display: inline-block;
     padding: 20px 30px;
     background-color: aquamarine;
     text-align: center;
-}
+} */
 .carousel {
     display: flex;
     height: 500px;
