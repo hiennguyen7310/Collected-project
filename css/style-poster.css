@@ -2,20 +2,22 @@
     margin: 0;
     padding: 0;
 }
-/* a {
-    display: inline-block;
-    padding: 20px 30px;
-    background-color: aquamarine;
+body {
+    background: rgb(255, 253, 224);
+}
+.wrap {
+
     text-align: center;
-} */
+}
 .carousel {
     display: flex;
     height: 500px;
     width: max-content;
     padding: 20px;
+    margin-bottom: 100px;
     gap: 20px;
     overflow: hidden;
-    animation: scroll 10s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 @keyframes scroll {
     0% {transform: translateX(0);}
