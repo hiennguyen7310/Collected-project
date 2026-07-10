@@ -2,15 +2,17 @@
     background-color: rgb(104, 185, 255);
 }
 header {
-    height: 600px;
-    width: 100%;
+    /* height: 600px; */
+    /* width: 100%; */
     background: url(../img/Banner1.png);
+    background-size: contain;
     background-color: black;
-    background-size: cover;
+    /* background-size: cover; */
     text-align: center;
-    padding-top: 150px;
+    padding: 300px auto;
 }
 h1 {
+    padding: 200px 0;
     font-family: "Kablammo", sans-serif;
     font-size: 48px;
     color: rgb(253, 254, 186);
@@ -23,7 +25,7 @@ header .scroll {
     border: 2px dashed rgb(255, 255, 255);
     border-radius: 100px;
     position: absolute;
-    bottom: 150px;
+    top: 400px;
     right: 50px;
     display: flex;
     flex-direction: column;
@@ -35,7 +37,7 @@ header .arrow {
     width: 1px;
     height: 50px;
     position: relative;
-    background-color: green;
+    background-color: rgb(0, 0, 0);
     animation: scroll 2s ease-in-out infinite;
 }
 header .arrow::after {
@@ -43,7 +45,7 @@ header .arrow::after {
     width: 1px;
     height: 16px;
     transform: rotate(24deg);
-    background-color: green;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -56,9 +58,9 @@ header .arrow::after {
 .product-bg {
     width: 100%;
     height: 600px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     background: url(../img/Banner2.png);
-    background-size: cover;
+    background-size: contain;
 }
 .product {
     padding-top: 100px;
@@ -82,7 +84,7 @@ header .arrow::after {
 .product a:hover {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
-    background-color:rgba(196, 157, 0, 0.5);
+    background-color:rgba(255, 204, 0, 0.5);
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px rgba(211, 151, 0, 0.5);
 }
