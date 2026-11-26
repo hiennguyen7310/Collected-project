@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/Logo.png" type="image/x-icon">
+    <meta name="description" content="神戸電子専門学校・デザイン学科1年生の自己紹介サイトです。">
+    <!-- OGP Tags -->
+    <meta property="og:title" content="自己紹介サイトです。">
+    <meta property="og:description" content="こんにちは！神戸電子専門学校・グラフィックデザイン学科・1年生の自己紹介サイトです。遊びに来てくれてありがとうございます！">
+    <meta property="og:type" content="website"> <!-- 記事ページなら article、トップなら website -->
+    <meta property="og:url" content="https://xserver.com">
+    <meta property="og:image" content="https://xserver.com/img/OGP.png"> <!-- 画像の絶対パス -->
+
+    <title>自己紹介＿グエンゴクヒエン</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="wallpaper">
+        <!-- Navigation -->
+        <div class="nav">
+            <a class="logo" href="#"><img src="img/Logo.png" alt="logo"></a>
+            <h1><img src="img/Title.svg" height="120" alt=""></h1>
+            <div class="wall-color">
+                <div class="wall-color hidden">
+                    <a class="btn" id="btn_default">初</a>
+                    <a class="btn" id="btn_green">緑</a>
+                    <a class="btn" id="btn_red">赤</a>
+                    <a class="btn" id="btn_blue">青</a>
+                </div>
+                <a class="btn" id="btn_wall">壁</a>
+            </div>
+            <!-- <div class="menu">
+                <a class="btn" id="color">色</a>
+            </div> -->
+            <div class="sns">
+                <a class="facebook" href="#"><img src="img/facebook.png"></a>
+                <a class="insta" href="#"><img src="img/instagram.png"></a>
+                <a class="line" href="#"><img src="img/line.png"></a>
+            </div>
+            <div id="music">
+                <img src="img/Play button.svg" height="60" alt="play button">
+                <div class="control">
+                    <figure>
+                        <h2>HELLO VIETNAM - English</h2>
+                        <audio controls loop
+                            src="audio/Hello Vietnam  -  Quynh Anh ( with English lyric) - Canviun Digital Products.mp3"></audio>
+                        <a href="https://www.youtube.com/watch?v=KCIG03w5j1g" target="_blank"> View on Youtube </a>
+                        <h2>HELLO VIETNAM - Vietnamese</h2>
+                        <audio controls loop
+                            src="audio/[HD] Chào Việt Nam - Thùy Chi . Hello Viet Nam - Mạnh Dũng.mp3"
+                            target="_blank"></audio>
+                        <a href=""> View on Youtube </a>
+                    </figure>
+                    It's quite interesting that the first time I heard of this song was actually from a video of a Japanese
+                    living in Vietnam.
+                </div>
+            </div>
+    
+        </div>
+        <!-- LIGHT -->
+        <div id="light">
+            <img class="light" src="img/Light.svg" alt="light">
+            <img class="light" src="img/Light.svg" alt="light">
+        </div>
+
+        <!-- TV set -->
+        <div id="tv-set">
+            <!-- TV -->
+            <!-- Trigger Button  -->
+            <div id="tv">
+                <div class="sleep-change">
+                    <a class="btn-tv" id="btn-tv_snow">❄️</a>
+                    <a class="btn-tv" id="btn-tv_leaves">🌿</a>
+                    <a class="btn-tv" id="btn-tv_sakura">🌸</a>
+                </div>
+                <button class="openBtn" id="openBtn-tv">
+                    <ul class="sleep snow">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </button>
+            </div>
+            <!-- Mini Pop-Up Window -->
+            <dialog id="tv-miniWindow" class="window">
+                <div class="window-header">
+                    <h2><img src="img/Fav movies.svg" alt=""></h2>
+                    <button id="closeBtn-tv" class="closeBtn"><img src="img/Exit.svg"></button>
+                </div>
+                <div class="content">
+                    <div class="list">
+                        <h3>最近見ている映画・アニメ</h3>
+                        <div class="arrow arrow1">scroll →→</div>
+                        <div class="arrow arrow2">scroll →→</div>
+                        <div class="list-scroll">
+                            <ul class="folder-list" id="seeing">
+                                <li id="mkr"><img src="img/Folder-mkr.png" alt=""></li>
+                                <li><img src="img/Folder-ranma.png" alt=""></li>
+                                <li><img src="img/Folder-soraakai.png" alt=""></li>
+                                <li id="sxf"><img src="img/Folder-sxf.png" alt=""></li>
+                                <li><img src="img/Folder-boshi.png" alt=""></li>
+                            </ul>
+                        </div>
+                        <h3>好きな映画・アニメ</h3>
+                        <div class="list-scroll">
+                            <ul class="folder-list" id="favorite">
+                                <li><img src="img/Folder-HP.png" alt=""></li>
+                                <li><img src="img/Folder-Spirited.png" alt=""></li>
+                                <li><img src="img/Folder-Howl.png" alt=""></li>
+                                <li><img src="img/Folder-Saibo.png" alt=""></li>
+                                <li><img src="img/Folder-inside out.png" alt=""></li>
+                                <li><img src="img/Folder-Nobody.png" alt=""></li>
+                            </ul>
+                        </div class="list-scroll">
+                    </div>
+                    <!-- Display card -->
+                    <ul class="display">
+                        <div class="arrow3">scroll →→</div>
+                        <!-- Spy x Fammily -->
+                        <li class="display-card sxf">
+                            <img src="img/sxf.jpg" alt="">
+                            <dl class="info">
+                                <dt>SPY X FAMILY</dt>
+                                <dd>世界各国が水面下にて、熾烈な情報戦を繰り広げていた時代。東西の間に鉄のカーテンが下りて十余年、隣り合う東国（オスタニア）と西国（ウェスタリス）の間には仮初めの平和が成り立っていた。
+                                    <br>西国から東国に送られた西国一の凄腕スパイ・黄昏（たそがれ）は、東西平和を脅かす東国の政治家ドノバン・デズモンドと接触するため、偽装家族を作ってデズモンドの息子が通う名門イーデン校に養子を入学させる任務・オペレーション〈梟（ストリクス）〉を命じられる。黄昏は精神科医ロイド・フォージャーを名乗り、養子を探して孤児院で少女アーニャと出会う。ロイドは知らないが、アーニャは心を読むことができる超能力者（エスパー）であった。より賢い子供を求める彼の心を読んだアーニャが賢いふりをしたため、難関イーデン校に合格できると考えたロイドは彼女を養子にする。実際にはそれほど賢くないアーニャにロイドは四苦八苦させられるが、なんとか筆記試験に合格。ところが次の面接試験には両親揃って来るよう指示されたため、ロイドは急遽、妻役の女性を探すこととなる。
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="display-card mkr">
+                            <img src="img/mkr.webp" alt="">
+                            <dl class="info">
+                                <dt>魔法騎士レイアース</dt>
+
+                                <span>「信じる心が力になる」</span>
+                                <dd>社会見学にやってきた東京タワーで突然、異世界「セフィーロ」に招喚された獅堂光・龍咲海・鳳凰寺風。
+                                    <br>そこで三人は、「セフィーロ」の平和と秩序を祈りの力で守ってきた姫・エメロードが、捕われの身となり世界に危機が訪れていることを知る。
+                                    <br>「セフィーロ」を救うべく、エメロードによって招喚された三人の少女は、果たして伝説の「魔法騎士」となり、姫と世界を救うことが出来るのか！？
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="display-card inside-out">
+                            <img src="img/inside out-bg.jpeg" alt="">
+                            <dl class="info">
+                                <dt>インサイド・ヘッド</dt>
+                                <dd>ライリーは、笑顔が素敵な活発な11才の女の子。彼女の頭の中には5つの感情が存在する。ライリーを楽しい気持ちにすることが役割のヨロコビ、嫌いなものを拒絶する役割のムカムカ、腹が立った時に怒りを爆発させる役割のイカリ、危険からライリーを守る役割のビビリ。でもライリーを悲しませてしまうことしかできないカナシミの役割だけは謎に包まれている…。そんな感情たちは、頭の中の司令部で、ライリーを幸せにするため日々奮闘していた。ある日ライリーは、住み慣れた大好きなミネソタを離れ、見知らぬ街サンフランシスコで暮らし始める。不安定になった彼女の心は、感情たちに思わぬ大事件を起こす。転校先の教室で自己紹介をしているその時、カナシミがミネソタでの楽しかった≪思い出ボール≫に触れてしまい、ライリーは泣きじゃくってしまう。自身でもワケがわからぬカナシミの無意識にボールに触れてしまう衝動により、ついにヨロコビとカナシミは司令部の外に放り出されてしまう！2つの感情を無くしてしまったため、頭の中の世界は異変の兆しを見せ始め、2人は巨大迷路のような≪思い出保管場所≫に迷い込み、ヨロコビ不在の司令部も大混乱となる。その頃ヨロコビとカナシミは自分たちも今まで見たことが無かった驚きと色彩に満ちた世界で大冒険を繰り広げていた。―司令部を目指してライリーを再び笑顔にするために！
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </dialog>
+
+            <!-- Notion -->
+            <!-- Trigger Button -->
+            <button class="openBtn" id="openBtn-notion">Notion</button>
+            <!-- Mini Pop-Up Window -->
+            <dialog id="notion-miniWindow" class="window">
+                <div class="window-header">
+                    <h2><img src="img/Bookshelf-Notion.svg" alt=""></h2>
+                    <button id="closeBtn-notion" class="closeBtn"><img src="img/Exit.svg" alt=""></button>
+                </div>
+                <iframe
+                    src="https://pool-mind-3e8.notion.site/ebd//6d6b49d9c6294f76ba0912f9eddfacca?v=70fa3f812ff64077b5cdb947808272c8"
+                    width="800" height="600" frameborder="0" allowfullscreen></iframe>
+            </dialog>
+
+            <div id="bookshelf"><img src="img/Bookshelf.svg" width="320" alt=""></div>
+        </div>
+
+        <!-- Name-tag -->
+        <!-- Trigger Button -->
+        <div class="name-tag">
+            <img src="img/strap.svg" width="36" alt="">
+            <button class="openBtn" id="openBtn-nt">
+                <img src="img/Name tag.svg" width="50" alt="">
+            </button>
+        </div>
+        <!-- Mini Pop-Up Window -->
+        <dialog id="nametag-miniWindow" class="window">
+            <div class="window-header">
+                <h2><img src="img/ABOUT.svg" alt=""></h2>
+                <button id="closeBtn-nt" class="closeBtn"><img src="img/Exit.svg" alt=""></button>
+            </div>
+            <div class="content">
+                <img class="pic" src="img/Me2.png" height="200" alt="">
+                <div class="info">
+                    <h3>NGUYEN NGOC HIEN</h3>
+                    <p>ベトナム</p>
+                    <p>かに座</p>
+                    <p>血液型：B</p>
+                    <p>神戸電子専門学校・グラフィックデザイン学科・1年生</p>
+                </div>
+            </div>
+        </dialog>
+
+        <!-- --- TABLE --- -->
+        <div id="table">
+
+            <!-- Laptop - Game and ppt -->
+            <!-- Trigger Button -->
+            <button class="openBtn" id="openBtn-lt">
+                <img src="img/Laptop.svg" height="120px" alt="laptop">
+                <div class="screen-saver"></div>
+            </button>
+            <!-- Mini Pop-Up Window -->
+            <dialog id="lt-miniWindow" class="window">
+                <div class="window-header">
+                    <h2><img src="img/Fav game.svg" alt=""></h2>
+                    <button id="closeBtn-lt" class="closeBtn"><img src="img/Exit.svg" alt=""></button>
+                </div>
+                <img class="laptop" src="img/Laptop.svg" alt="laptop">
+
+                <ul class="game-list">
+                    <li class="top"></li>
+                    <li class="middle"></li>
+                    <li class="bottom"></li>
+                </ul>
+                <!-- <ul class="folder-list">
+                <li><img src="img/Folder-mkr.png" alt=""></li>
+                <li><img src="img/Folder-ranma.png" alt=""></li>
+                <li><img src="img/Folder-soraakai.png" alt=""></li>
+                <li><img src="img/Folder-sxf.png" alt=""></li>
+                <li><img src="img/Folder-.png" alt=""></li>
+                <li><img src="img/Folder-mkr.png" alt=""></li>
+                <li><img src="img/Folder-ranma.png" alt=""></li>
+                <li><img src="img/Folder-soraakai.png" alt=""></li>
+                <li><img src="img/Folder-sxf.png" alt=""></li>
+                <li><img src="img/Folder-.png" alt=""></li>
+            </ul> -->
+            </dialog>
+
+            <img class="table" src="img/Table.svg" width="340" alt="">
+
+            <!-- Journal Gallery -->
+            <!-- Trigger Button -->
+            <button class="openBtn" id="openBtn-gallery">
+                <img src="img/Journal.svg" height="80" alt="">
+            </button>
+            <!-- Mini Pop-Up Window -->
+            <dialog id="gallery-miniWindow" class="window">
+                <div class="window-header">
+                    <h2><img src="img/Journal-title.svg" alt=""></h2>
+                    <button id="closeBtn-gallery" class="closeBtn"><img src="img/Exit.svg" alt=""></button>
+                </div>
+                <ul class="gallery">
+                    <!-- Card 1 -->
+                    <li>
+                        <div class="pic-n-info">
+                            <div class="title">
+                                <div class="tag-bar">
+                                    <div class="tag">#travel</div>
+                                    <div class="tag">#kobe</div>
+                                </div>
+                                <div class="date-bar">
+                                    <div class="date">2024/11/20</div>
+                                    <img src="img/travel.jpg" alt="">
+                                </div>
+                            </div>
+                            <h4>六甲山</h4>
+                        </div>
+                        <p>れについてしがいの者被れ、：ないないもます批評をのにの法引用でしょれ後続するするがの、のメディアの許諾引用てするから[、のそこでし合衆国著者該当ないをしの、それ、：引用はがさ被でき」のはあり、したがってによるを出所理由引用れ財団の掲
+                        </p>
+                    </li>
+                    <!-- Card 2 -->
+                    <li>
+                        <div class="pic-n-info">
+                            <div class="title">
+                                <div class="tag-bar">
+                                    <div class="tag">#travel</div>
+                                    <div class="tag">#kobe</div>
+                                </div>
+                                <div class="date-bar">
+                                    <div class="date">2024/04/06</div>
+                                    <img src="img/coming to JP_1.jpg" alt="">
+                                    <img src="img/coming to JP_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <h4>来日の日</h4>
+                        </div>
+                        <p>れについてしがいの者被れ、：ないないもます批評をのにの法引用でしょれ後続するするがの、のメディアの許諾引用てするから[、のそこでし合衆国著者該当ないをしの、それ、：引用はがさ被でき」のはあり、したがってによるを出所理由引用れ財団の掲
+                        </p>
+                    </li>
+                    <!-- Card 3 -->
+                    <li>
+                        <div class="pic-n-info">
+                            <div class="title">
+                                <div class="tag-bar">
+                                    <div class="tag">#travel</div>
+                                    <div class="tag">#kobe</div>
+                                </div>
+                                <div class="date-bar">
+                                    <div class="date">2026/09/25</div>
+                                    <img src="img/New pet.png" alt="">
+                                </div>
+                            </div>
+                            <h4>実家で新しいメンバー</h4>
+                        </div>
+                        <p>れについてしがいの者被れ、：ないないもます批評をのにの法引用でしょれ後続するするがの、のメディアの許諾引用てするから[、のそこでし合衆国著者該当ないをしの、それ、：引用はがさ被でき」のはあり、したがってによるを出所理由引用れ財団の掲
+                        </p>
+                    </li>
+                </ul>
+            </dialog>
+        </div>
+
+        <!-- KITCHEN -->
+        <div class="window-kitchen">
+            <img id="window" src="img/Window.svg" width="320" alt="">
+            <img id="kitchen" src="img/Kitchen.svg" width="400" alt="">
+        </div>
+        <img id="fridge" src="img/Fridge.svg" width="180" alt="">
+
+    </div>
+
+
+
+    </div>
+    <div id="mouse-effect"></div>
+    <!-- <footer></footer> -->
+</body>
+
+</html>

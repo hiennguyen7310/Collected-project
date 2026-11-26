@@ -1,0 +1,7 @@
+<svg width="67" height="32" viewBox="0 0 67 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 32C0 14.3269 14.3269 0 32 0H35C52.6731 0 67 14.3269 67 32V32H0V32Z" fill="#D9D9D9"/>
+<mask id="stroke0_138_3374" fill="white">
+<path d="M0 32C0 14.3269 14.3269 0 32 0H35C52.6731 0 67 14.3269 67 32V32H0V32Z"/>
+</mask>
+<path d="M67 32V32C67 14.3269 52.6731 0 35 0H32C14.3269 0 0 14.3269 0 32V32H67Z" stroke-width="12" stroke="black" mask="url(#stroke0_138_3374)"/>
+</svg>
